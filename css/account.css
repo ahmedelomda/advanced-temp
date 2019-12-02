@@ -1,0 +1,331 @@
+body {   
+font-family: 'Raleway','Helvetica','Arial',sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;	
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	border-bottom: .5px solid ;
+	border-color: #c1c1c1e6;
+}
+
+.nav1 {
+	flex-grow:0.9;
+}
+
+.icon {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	padding: 0 10px ;
+	letter-spacing: .1px;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+
+.fa-envelope , .fa-phone , .fa-clock {
+	margin-right: 10px;
+}
+
+.fa-long-arrow-alt-right {
+	margin-left: 10px
+}
+
+.fa ,.fab ,.far {
+    font-size: 17px
+}
+
+.fa-search {
+	margin-left: 20px;
+}
+
+.fa-headphones-alt , .fa-project-diagram , .fa-envelope-open, .fa-glasses{
+	font-size: 36px;
+    color: #436dfe;
+}
+
+.fixed-menu {
+	display: flex;
+	padding: 28px;
+	justify-content: flex-end;  /*when i make display:fixed , the effect of display: flex will be wrong*/
+}
+
+.image {
+	flex-grow: .923;
+}
+
+.nav3 {
+	flex-grow: .04;
+}
+
+.nav3 li {
+	font-size: 14px;
+	padding-left: 30px;
+}
+
+.image2 {
+    width:100%
+}
+
+.title {
+    text-align: center;
+    width:700px;
+	margin: auto;
+	margin-top: 165px
+}
+
+.text {
+    font-size: 19px;
+    color: #a3a3a3;
+	line-height: 1.8;
+	font-weight: 400;
+}
+
+.offer {
+	font-weight: 700;
+    line-height: 50px;
+    color: #30314f;
+	margin-top: 10px;
+	font-size: 40px;
+}
+
+.account-photo {
+	background-image:url(../photo/slide.jpg);
+	background-size: cover;
+	display: flex;
+    height: 750px;
+	justify-content:space-around;
+}
+
+.accounting {
+	width: 800px;
+	margin-top: 150px;
+	margin-left: 
+}
+
+.h1 {
+	color: white;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 0;
+}
+
+.txt {
+	
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 1.8;
+	color:#e4e5ff;
+	margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+	width: 158px;
+	height: 60px;
+	border-radius: 5px;
+	border: .6px solid;
+	border-color: #d9d9d9;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn1 {
+	font-size:15px;
+	color: #2b2727;
+	font-weight: bold;
+	margin-top: 17px;
+	display: inline-block;
+}
+
+.btn-bg {
+	background-color: white;
+}
+
+.btn2 {
+	font-size:15px;
+	font-weight: bold;
+	color: white;
+	margin-top: 17px;
+	display: inline-block;
+	
+}
+
+.form {
+    width:340px;
+	background-color:white;
+	padding: 40px;
+	margin-top: 110px;
+	text-align: left;
+	height: 610px;
+	box-shadow: 0px 5px 20px ;
+}
+
+.h2 {
+	
+	font-size:24px;
+	font-weight: 700;
+	color: #30314f;
+	margin-bottom: 20px;
+}
+
+input , select{
+	height: 60px;
+    border: 1px solid #e3e3e3;
+	font-size:15px;
+	line-height: 60px;
+	padding: 0 20px;
+	margin-bottom: 25px;
+}
+
+input {
+	width:280px;
+	color: #8d8d8d;
+	font-style: italic;
+}
+
+.select {
+	font-style: normal;
+	color:#8d8d8d;
+	width:320px
+}
+
+.label {
+	color: #888787;
+	margin:10px 0;
+	line-height: 19.5px;
+	font-size: 15px;
+}
+
+.send {
+	color: white;
+	background-color: #2d58ec;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: normal;
+	width:320px;
+	cursor: pointer;
+}
+
+.slices {
+	display: flex;
+	margin-top: 50px;
+	padding: 50px;
+    text-align:center;
+}
+
+.slice {
+	width: 40px;
+	height: 36px;
+	transition: all 0.4s ease-in-out;
+    background-color: #e6ecff;
+    border-radius: 8px;
+    padding: 22px 23px 17px 23px;
+	cursor: pointer;
+	padding: 23px;
+	margin: auto;
+}
+
+.slice:hover {
+    background-color: #436dfe;
+    color: #fff;
+}
+
+.fa-headphones-alt:hover , .fa-project-diagram:hover, .fa-envelope-open:hover, .fa-glasses:hover {
+	color: white
+}
+
+.dev {
+	padding: 0 30px;
+	width:290px;
+	height: 360px;
+}
+
+.Accounting-service {
+	margin-bottom:10px ;
+	margin-top: 36px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.york {
+	font-size: 16px;
+	line-height: 24px;
+   	color: #838383
+}
+
+.information {
+	padding-top: 65px;
+	display: flex;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 120px;
+}
+
+.image-us {
+	background-image: url(../photo/about-us.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 370px;
+	height: 520px;
+}
+
+.innovation {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 35px;
+	width:580px;
+	margin: auto;
+	margin-top: 70px
+}
+
+.about-us {
+    margin: 0 0 10px; 
+  	font-size: 18px;
+    color: #a3a3a3;
+}
+
+.h1-info {
+	font-size: 40px;
+	font-weight: 700;
+	color: #30314f;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+.txt-info {
+	margin-top: 35px;
+	font-size: 18px;
+    color: #838383;
+}
+
+.learn-more {
+	line-height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #436dfe;
+	font-weight: 700;
+	width:80px;
+	height: 60px;
+	margin-top:50px; 
+}
+
+
+#learn {
+	color: white
+}
